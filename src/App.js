@@ -84,7 +84,7 @@ class App extends Component {
       lists[listInd].listtodo += 1;
       lists[listInd].listcheck -= 1;
       const element = document.getElementById(listInd + '_' + Ind);
-      element.style.color = 'black';
+      element.style.color = 'white';
       element.innerHTML =  checkedItem.item ;
 
       todoitemNum += 1;
