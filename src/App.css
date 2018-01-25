@@ -1,0 +1,125 @@
+.App {
+  background-image: url("background.png");
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 100px;
+}
+
+.App-intro {
+  color: white;
+  font-size: large;
+}
+
+.App-input {
+  padding: 5px 15px;
+  border: 2px black solid;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.App-button {
+  padding: 5px 10px 5px 10px;
+  -webkit-border-radius: 28px;
+  cursor:pointer;
+  border-radius: 28px;
+  background: #3498db;
+}
+.App-count {
+  color: white;
+}
+.listGroup {
+  text-align: left;
+  width: 100%;
+  height: 620px;
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+
+.TodoList {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px white solid;
+  width: 480px;
+  height: 560px;
+  margin: 4em;
+}
+
+.List-input {
+  width: 400px;
+  padding: 5px 15px;
+  border: 2px black solid;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.List-button {
+  padding: 5px 10px 5px 10px;
+  -webkit-border-radius: 28px;
+  cursor:pointer;
+  border-radius: 28px;
+  background: #3498db;
+}
+
+.listname {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.rmList-button {
+  float: right;
+  border: 0;
+  cursor:pointer;
+  background: none;
+  color: red;
+}
+
+.TodoItem {
+  padding-left: 0;
+  height: 400px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.item {
+  padding-bottom: 5px;
+  border-bottom: 2px white dotted; 
+  list-style: none;
+  margin: 10px;
+  
+}
+.item-content {
+  padding-left: 10px;
+  font-family: "Time New Roman", Times, serif;
+  font-size: 20px;
+  color: white;
+
+}
+.rmItem-button {
+  float: right;
+  border: 0;
+  background: none;
+  cursor:pointer;
+  color: red;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
